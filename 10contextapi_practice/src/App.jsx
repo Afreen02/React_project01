@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react"
+import {useContext, useState} from "react"
 import TodoContext from "./TodoContext"
 function App() {
   const {todos, addTodo, deleteTodo, updateTodo} = useContext(TodoContext);
