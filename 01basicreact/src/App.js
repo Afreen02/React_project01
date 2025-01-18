@@ -1,9 +1,8 @@
-import Testing from "./Testing";
+import Form from "./Form";
 function App() {
   return (
     <>
-      <Testing/>
-      <h1>Vite aur React</h1>
+    <Form/>
     </>
   );
 }
